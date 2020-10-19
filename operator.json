@@ -1,9 +1,9 @@
 {
-  "name": "Template R operator",
-  "description": "Return the medium value of a cell",
-  "tags": ["template"],
+  "name": "Join GFF operator",
+  "description": "Join a range-based GFF annotation file to position-based genomic data.",
+  "tags": ["bioinformatics", "import"],
   "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/template_R_operator"],
+  "urls": ["https://github.com/tercen/join_GFF_operator"],
   "properties": []
 }
 

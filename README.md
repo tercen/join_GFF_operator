@@ -2,22 +2,19 @@
 
 ##### Description
 
-The `join_GFF_operator` is a template repository for the creation of R operators in Tercen.
+The `join_GFF_operator` can be used to join a range-based GFF annotation file to position-based genomic data.
 
 ##### Usage
 
 Input projection|.
 ---|---
-`x-axis`        | type, description 
-`y-axis`        | type, description 
-`row`           | type, description 
-`column`        | type, description 
-`colors`        | type, description 
-`labels`        | type, description 
+`row1`           | character, chromosome name 
+`row2`           | numeric/character, position on the chromosome 
+`column`        | character, GFF table ID
 
 Output relations|.
 ---|---
-`Operator view`        | view of the Shiny application
+`join`        | joined tables
 
 ##### Details
 
@@ -25,6 +22,5 @@ Details on the computation.
 
 ##### See Also
 
-[template_shiny_operator](https://github.com/tercen/template_shiny_operator)
-, [template_docker_operator](https://github.com/tercen/template_docker_operator)
+[read_VCF_operator](https://github.com/tercen/read_VCF_operator)
 
