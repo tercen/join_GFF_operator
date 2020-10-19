@@ -28,7 +28,35 @@
       }
     ]
   },
+  "Bioconductor": {
+    "Version": "3.8"
+  },
   "Packages": {
+    "BiocGenerics": {
+      "Package": "BiocGenerics",
+      "Version": "0.28.0",
+      "Source": "Bioconductor",
+      "Hash": "6e2b945d12e9e01cb0602ce6fbfb8841"
+    },
+    "BiocManager": {
+      "Package": "BiocManager",
+      "Version": "1.30.10",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "db75371846625725e221470b310da1d5"
+    },
+    "BiocVersion": {
+      "Package": "BiocVersion",
+      "Version": "3.8.0",
+      "Source": "Bioconductor",
+      "Hash": "5b2b57b3c79f2c245c301dfd9927d330"
+    },
+    "IRanges": {
+      "Package": "IRanges",
+      "Version": "2.16.0",
+      "Source": "Bioconductor",
+      "Hash": "6a0d55fa3fd5dae8c7298fcbdce70a86"
+    },
     "R6": {
       "Package": "R6",
       "Version": "2.4.1",
@@ -42,6 +70,12 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "f3ca785924863b0e4c8cb23b6a5c75a1"
+    },
+    "S4Vectors": {
+      "Package": "S4Vectors",
+      "Version": "0.20.1",
+      "Source": "Bioconductor",
+      "Hash": "4887dc8c6a150334ecdb8cf59b09c879"
     },
     "assertthat": {
       "Package": "assertthat",
