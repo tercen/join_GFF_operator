@@ -4,7 +4,7 @@ library(fuzzyjoin)
 
 ctx = tercenCtx()
 
-if (!any(ctx$cnames == "documentId")) stop("Column factor documentId is required") 
+#if (!any(ctx$cnames == "documentId")) stop("Column factor documentId is required") 
 
 documentId <- ctx$cselect()[[1]]
 client = ctx$client
