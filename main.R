@@ -14,6 +14,8 @@ schema = client$tableSchemaService$get(documentId)
 gff_table = as_tibble(client$tableSchemaService$select(schema$id, list(), 0, schema$nRows))
 
 gff_table <- gff_table[gff_table$feature == "gene", ]
+gff_table$start <- as.numeric(gff_table$start)
+gff_table$end <- as.numeric(gff_table$end)
 
 chromosome <- ctx$rselect(ctx$rnames[[1]])[[1]] %>% as_tibble
 names(chromosome) <- "chromosome"
