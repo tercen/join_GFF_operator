@@ -1,6 +1,6 @@
 {
-  "name": "Join GFF operator",
-  "description": "Join a range-based GFF annotation file to position-based genomic data.",
+  "name": "Join GFF",
+  "description": "Connect a range-based General Feature Format annotation table to a position-based genomic data table.",
   "tags": ["bioinformatics", "import"],
   "authors": ["tercen"],
   "urls": ["https://github.com/tercen/join_GFF_operator"],
